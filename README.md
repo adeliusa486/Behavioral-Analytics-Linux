@@ -91,7 +91,7 @@ Formats suspicious events into readable alerts and exports findings to reports.
 
 Clone the repository:
 
-git clone https://github.com/YourUsername/Behavioral-Analytics-Linux.git  
+git clone https://github.com/adeliusa486/Behavioral-Analytics-Linux.git  
 cd Behavioral-Analytics-Linux
 
 Create and activate a virtual environment (recommended):

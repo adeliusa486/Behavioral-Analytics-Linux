@@ -1,0 +1,43 @@
+Apr 14 10:17:42 kali sshd[1234]: Failed password for root from 192.168.1.100 port 22 ssh2
+Apr 14 10:17:45 kali sshd[1234]: Failed password for root from 192.168.1.100 port 22 ssh2
+Apr 14 10:17:48 kali sshd[1234]: Failed password for admin from 192.168.1.100 port 22 ssh2
+Apr 14 10:18:01 kali sshd[1234]: Accepted password for kali from 192.168.1.101 port 22 ssh2
+Apr 14 10:18:30 kali sudo:    kali : TTY=pts/0 ; PWD=/home/kali ; USER=root ; COMMAND=/usr/bin/apt update
+Apr 14 10:20:15 kali sshd[1234]: Failed password for invalid_user from 10.0.0.42 port 22 ssh2
+Apr 14 11:05:22 kali sshd[1234]: Failed password for root from 203.0.113.5 port 22 ssh2
+Apr 14 11:05:23 kali sshd[1234]: Failed password for root from 203.0.113.5 port 22 ssh2
+Apr 14 11:05:24 kali sshd[1234]: Failed password for root from 203.0.113.5 port 22 ssh2
+Apr 14 11:05:25 kali sshd[1234]: Failed password for root from 203.0.113.5 port 22 ssh2
+Apr 14 11:05:26 kali sshd[1234]: Failed password for root from 203.0.113.5 port 22 ssh2
+Apr 14 11:05:27 kali sshd[1234]: Failed password for root from 203.0.113.5 port 22 ssh2
+Apr 14 11:05:28 kali sshd[1234]: Failed password for root from 203.0.113.5 port 22 ssh2
+Apr 14 11:05:29 kali sshd[1234]: Failed password for root from 203.0.113.5 port 22 ssh2
+Apr 14 11:05:30 kali sshd[1234]: Failed password for root from 203.0.113.5 port 22 ssh2
+Apr 14 11:05:31 kali sshd[1234]: Failed password for root from 203.0.113.5 port 22 ssh2
+Apr 14 11:05:32 kali sshd[1234]: Message repeated 2 times: [ Failed password for root from 203.0.113.5 port 22 ssh2]
+Apr 14 12:00:01 kali CRON[5678]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 14 13:22:44 kali sshd[1234]: Invalid user test from 198.51.100.77 port 22
+Apr 14 15:30:12 kali sudo:    kali : user NOT in sudoers ; TTY=pts/0 ; PWD=/home/kali ; USER=root ; COMMAND=/usr/bin/nano /etc/shadow
+Apr 14 16:45:33 kali sshd[1234]: Accepted publickey for kali from 192.168.1.101 port 22 ssh2: RSA SHA256:abcdefg
+Apr 14 23:58:01 kali sshd[1234]: Failed password for root from 45.33.22.11 port 22 ssh2
+Apr 14 23:58:02 kali sshd[1234]: Failed password for root from 45.33.22.11 port 22 ssh2
+Apr 14 23:58:03 kali sshd[1234]: Failed password for root from 45.33.22.11 port 22 ssh2
+Apr 14 23:58:04 kali sshd[1234]: Failed password for root from 45.33.22.11 port 22 ssh2
+Apr 14 23:58:05 kali sshd[1234]: Failed password for root from 45.33.22.11 port 22 ssh2
+Apr 14 23:58:06 kali sshd[1234]: Failed password for root from 45.33.22.11 port 22 ssh2
+Apr 14 23:58:07 kali sshd[1234]: Failed password for root from 45.33.22.11 port 22 ssh2
+Apr 14 23:58:08 kali sshd[1234]: Failed password for root from 45.33.22.11 port 22 ssh2
+Apr 14 23:58:09 kali sshd[1234]: Failed password for root from 45.33.22.11 port 22 ssh2
+Apr 14 23:58:10 kali sshd[1234]: Failed password for root from 45.33.22.11 port 22 ssh2
+Apr 14 23:58:11 kali sshd[1234]: Failed password for root from 45.33.22.11 port 22 ssh2
+Apr 14 23:58:12 kali sshd[1234]: Failed password for root from 45.33.22.11 port 22 ssh2
+Apr 14 23:58:13 kali sshd[1234]: Failed password for root from 45.33.22.11 port 22 ssh2
+Apr 14 23:58:14 kali sshd[1234]: Failed password for root from 45.33.22.11 port 22 ssh2
+Apr 14 23:58:15 kali sshd[1234]: Failed password for root from 45.33.22.11 port 22 ssh2
+Apr 14 23:58:16 kali sshd[1234]: Failed password for root from 45.33.22.11 port 22 ssh2
+Apr 14 23:58:17 kali sshd[1234]: Failed password for root from 45.33.22.11 port 22 ssh2
+Apr 14 23:58:18 kali sshd[1234]: Failed password for root from 45.33.22.11 port 22 ssh2
+Apr 14 23:58:19 kali sshd[1234]: Failed password for root from 45.33.22.11 port 22 ssh2
+Apr 14 23:58:20 kali sshd[1234]: Failed password for root from 45.33.22.11 port 22 ssh2
+Apr 15 00:01:30 kali sshd[1234]: Invalid user admin from 45.33.22.11 port 22
+Apr 15 02:30:15 kali sshd[1234]: Failed password for oracle from 45.33.22.11 port 22 ssh2

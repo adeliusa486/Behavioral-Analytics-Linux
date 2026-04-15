@@ -1,0 +1,16 @@
+#!/bin/bash
+# Quick git add, commit, push for this project
+
+echo "[*] Staging all changes..."
+git add .
+
+read -p "[?] Commit message (press Enter for default): " msg
+if [ -z "$msg" ]; then
+    msg="Quick update $(date '+%Y-%m-%d %H:%M')"
+fi
+
+echo "[*] Committing: $msg"
+git commit -m "$msg"
+
+echo "[*] Pushing to remote..."
+git push

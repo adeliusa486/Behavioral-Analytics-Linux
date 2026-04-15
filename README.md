@@ -12,6 +12,15 @@ The system ingests Linux log data, extracts structured behavioral information, e
 
 The project demonstrates the core workflow used in modern Security Information and Event Management (SIEM) systems, including log collection and parsing, behavioral feature engineering, anomaly detection using machine learning, and alert generation with incident reporting.
 
+## Data Sources
+
+The sample dataset used in this project consists of Linux authentication log entries derived from real-world authentication log data for cybersecurity research and educational purposes.
+
+- `logs/auth.log.medium` contains approximately 5,000 log entries for demonstration and testing.
+- A larger dataset containing more than 86,000 log entries can be used for extended analysis, benchmarking, and performance evaluation.
+
+These logs simulate realistic authentication activity including normal user access, failed login attempts, privilege escalation, and suspicious authentication patterns.
+
 ## Key Features
 
 - Parses Linux authentication logs including failed logins, successful logins, invalid user attempts, sudo usage, and repeated message entries
@@ -53,7 +62,7 @@ Behavioral_Analytics_Project/
 │   └── alert.py
 │
 ├── logs/
-│   └── auth.log.sample
+│   └── auth.log.medium
 │
 ├── output/
 │
@@ -94,10 +103,6 @@ Install project dependencies:
 
 pip install -r requirements.txt
 
-Prepare a sample log file if needed:
-
-cp logs/auth.log.sample logs/auth.log
-
 ## Usage
 
 Run the full pipeline:
@@ -123,6 +128,10 @@ This command will:
 | --output | Specify output directory |
 
 ## Example Commands
+
+Analyze the included sample dataset:
+
+python3 main.py --logfile logs/auth.log.medium --train
 
 Analyze a real Linux authentication log:
 

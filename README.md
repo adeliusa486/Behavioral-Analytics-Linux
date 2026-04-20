@@ -222,7 +222,7 @@ Planned enhancements include:
 
 This project aligns with emerging cybersecurity practices in:
 
-- Security Operations Centers  
+- Security Operations Center  
 - Threat Detection Engineering  
 - Behavioral Analytics Platforms  
 - Insider Threat Monitoring  

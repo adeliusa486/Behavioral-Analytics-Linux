@@ -21,7 +21,7 @@ The sample dataset used in this project consists of Linux authentication log ent
 
 These logs simulate realistic authentication activity including normal user access, failed login attempts, privilege escalation, and suspicious authentication patterns.
 
-## Key Features
+## Key Feature
 
 - Parses Linux authentication logs including failed logins, successful logins, invalid user attempts, sudo usage, and repeated message entries
 - Extracts behavioral indicators such as failed login counts, access timing, source IP activity, and privilege escalation attempts
